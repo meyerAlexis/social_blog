@@ -1,0 +1,273 @@
+/*Body*/
+body {
+    background-color:#f3f3f3;
+}
+.root-main.windows {
+    background-color:#f3f3f3;
+}
+
+
+/*Title main*/
+.root-main.windows .col-4.text-center.titlesite.fs-2{
+    background-image: url("/src/img/logo_cv_am_windows.png");
+    margin-left: auto;
+    margin-right: auto;
+    background-position-y: -4px;
+    background-position-x: -9px;
+    background-repeat: no-repeat;
+    min-height: 62px;
+    min-width: 418px;
+}
+    .root-main.windows .col-4.text-center.fs-2 h3{
+        color: transparent;
+        display: none;
+        min-height: 55px;
+    }
+
+/** Menu */
+.root-main.windows .nav-scroller{
+    background-color: #e8e8e8;
+}
+
+@media only screen
+and (min-width: 1px) and (max-width: 769px){
+
+    .root-main.windows .col-4.text-center.titlesite.fs-2{
+        height: 104px;
+        background-size: 311px;
+        background-position-x: 23px;
+        background-position-y: 54px;
+        margin-left: 9%;
+    }
+}
+@media only screen
+and (min-width: 770px) and (max-width: 1400px){
+
+    .root-main.windows .col-4.text-center.titlesite.fs-2{
+        background-size: 306px;
+        min-height: 56px;
+        background-position-x: 10px;
+        background-position-y: 11px;
+    }
+}
+
+.root-main.windows nav.navMenu a {    
+    height: 45px;
+    border-bottom-style: solid;
+    border-bottom-color: #e8e8e8;
+    border-bottom-width: 5px;
+}
+.root-main.windows nav.navMenu a.one.visited, .root-main.windows nav.navMenu a.one:hover {   
+        border-bottom-color: #696969;
+    }
+    .root-main.windows nav.navMenu a.two.visited, .root-main.windows nav.navMenu a.two:hover {
+        border-bottom-color: #636363;
+    }
+    .root-main.windows nav.navMenu a.three.visited, .root-main.windows nav.navMenu a.three:hover {
+        border-bottom-color: #535353;
+    }   
+    .root-main.windows nav.navMenu a.four.visited, .root-main.windows nav.navMenu a.four:hover {
+        border-bottom-color: #424242;
+    }   
+    .root-main.windows nav.navMenu a:hover, .root-main.windows nav.navMenu a:hover {
+        border-bottom-color: #dadada73;
+        color: #000;
+    }
+
+
+
+/** Article*/
+.root-main.windows article h2,
+.root-main.windows h2 a{
+    color: #282c34;
+    /*text-decoration: underline; */
+    text-underline-position: under;
+    text-decoration-line: underline;
+  }
+
+
+  .root-main.windows article.blog-post h2.one, 
+  .root-main.windows article.blog-post h2.one a {  
+    text-decoration-color: #6c6c6c;
+    }
+    .root-main.windows article.blog-post h2.two, 
+    .root-main.windows article.blog-post h2.two a {
+        text-decoration-color: #9f9f9f;
+    }
+    .root-main.windows article.blog-post h2.three, 
+    .root-main.windows article.blog-post h2.three a {
+        text-decoration-color: #b9b9b9;
+    }   
+    .root-main.windows article.blog-post h2.four, 
+    .root-main.windows article.blog-post h2.four a {
+        text-decoration-color: #c5c5c5 ;
+    }   
+    .root-main.windows article.blog-post h2, 
+    .root-main.windows article.blog-post h2 a {
+        text-decoration-color: #ddd ;
+    }
+
+
+
+
+
+  .root-main.windows article .bg-light .blog-post .border .flex-md-row {
+    background-color: #d2d2d2fb;
+  }
+
+/*Title for each Article*/
+.root-main.windows .row.g-5 .title.row.g-5 {
+    min-height: 120px;
+    display: flex;
+    margin-bottom: 8px;
+    width: 100%;
+    margin-top: -30px;
+    margin-left: 0px;
+}
+.root-main.windows .row.g-5 .title.row.g-5 h4{
+    border-bottom: 4px solid #f3f3f3;
+    text-align: center;
+}
+
+    .root-main.windows .row.g-5 .title.row.g-5 h4.select{
+        border-bottom: 4px solid #0067b8!important;
+    }
+
+    .root-main.windows .viewLine .form{
+        padding:5;
+    }
+
+  /******Main accordion*****/
+.root-main.windows .col-md-8 article .accordion.main{
+    background-color: transparent;
+}
+    /*Content each accordion*/
+    .root-main.windows .row.g-5 .accordion-item .accordion.main .accordion-button.collapsed {
+        font-size: large;
+        background-color: white;
+        color:black;
+        border-radius: 8px 8px 0 0;
+        box-shadow: 0 -1px 0 rgb(0 0 0 / 72%) inset;
+        border: 1px solid #ccc!important;
+    }
+    .root-main.windows .row.g-5 .accordion-item .accordion.main .accordion-button:not(.collapsed) {
+        font-size: large;
+        background-color: #fafafa;
+        color:black;
+        border-radius: 8px 8px 0 0;
+        box-shadow: 0 -1px 0 rgb(0 0 0 / 12%) inset;
+        border: 1px solid #ccc!important;
+    }
+
+    .root-main.windows .col-md-8 article .accordion.main .viewLine{
+        font-size: larger;
+        min-height: 80px;
+        width: 98%; 
+        padding:8px;
+        color: #222f3b;
+        background-color: #fafafa;
+        border-right: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .root-main.windows .col-md-8 article .accordion.main .p-4{
+        font-size: 21px;
+        display: inline-block;
+        padding: 1.1rem!important
+    }
+
+    .root-main.windows .col-md-8 article .accordion-button:not(.collapsed){
+        color: white;
+        background-color: #0067b8;
+    }
+    .root-main.windows .col-md-8 article .accordion-button:not(.collapsed)::after{
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='black'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    }
+
+    /*Windows bottom details Competence*/
+    
+    .root-main.windows .col-md-8 article .accordion.main .offcanvas.offcanvas-bottom.show{
+        background-color: #fafafa;
+    }
+    .root-main.windows .col-md-8 article .accordion.main .offcanvas.offcanvas-bottom.show.css{
+        background-color: #dcffbf;
+    }
+    .root-main.windows .col-md-8 article .accordion.main .offcanvas.offcanvas-bottom.show.jquery{
+        background-color: #facac1;
+    }
+    .root-main.windows .col-md-8 article .accordion.main .offcanvas.offcanvas-bottom.show.javascript{
+        background-color: #f7e3b8;
+    }
+    .root-main.windows .col-md-8 article .accordion.main .offcanvas.offcanvas-bottom.show.firebase{
+        background-color: #c2dafd;
+    }
+    .root-main.windows .col-md-8 article .accordion.main .offcanvas.offcanvas-bottom.show.react{
+        background-color: #bce4f7;
+    }
+    .root-main.windows .col-md-8 article .accordion.main .offcanvas.offcanvas-bottom.show.reactnative{
+        background-color: #c0e8fa;
+    }   
+    .root-main.windows .col-md-8 article .accordion.main .offcanvas.offcanvas-bottom.show.php{
+        background-color: #cbd4fd;
+    }
+    .root-main.windows .col-md-8 article .accordion.main .offcanvas.offcanvas-bottom.show.java{
+        background-color: #fdd3c2;
+    }
+
+    /*competence Button*/
+    .root-main.windows .col-md-8 article .accordion.main .btn-primary {
+        color: #fff;
+        background-color: #005293;
+        border-radius: 8px 8px 0 0;
+        box-shadow: 0 -1px 0 rgb(0 0 0 / 12%) inset;
+        border: 1px solid #ccc!important;
+    }
+        .root-main.windows .col-md-8 article .accordion.main .btn-primary::first-letter {
+            text-transform: uppercase;
+        }
+/** Column right accordion*/
+.root-main.windows .accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: #3285c6;
+    color: #fff;
+    box-shadow: inset 0 calc(var(--bs-accordion-border-width) * -1) 0 var(--bs-accordion-border-color);
+}
+    .root-main.windows .accordion-collapse .viewLine .title, 
+    .root-main.windows .accordion-collapse .viewLine .title{
+      padding:5px;
+      color: #666666;
+      background-color: #b2d1e9;
+      font-weight: bold;
+    }
+
+/****Footer button****/
+
+.root-main.windows .container.footer {
+    background-color: #f2f2f2f8;
+}
+
+.root-main.windows .btn.btn-outline-primary.one{
+    background-color: #333;
+    color: #fff;
+}
+    .root-main.windows .btn.btn-outline-primary.one:hover{
+        background-color: rgb(90, 90, 90);
+    }   
+
+.root-main.windows .btn.btn-outline-primary.two{
+    background-color: #333;
+    color: #fff;
+}
+    .root-main.windows .btn.btn-outline-primary.two:hover{
+        background-color:rgb(90, 90, 90);
+    }
+
+.root-main.windows .btn.btn-outline-primary.three{
+    background-color: #333;
+    color: #fff;
+}    
+    .root-main.windows .btn.btn-outline-primary.three:hover{
+        background-color: rgb(90, 90, 90);
+        
+    }
